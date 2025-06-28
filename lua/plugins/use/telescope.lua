@@ -39,8 +39,8 @@ return {
 
     require("telescope").load_extension("file_browser")
 
-    vim.keymap.set("n", "<C-p>", ":Telescope find_files<CR>", { desc = "Buscar archivos en el proyecto" })
-    vim.keymap.set("n", "<C-b>", ":Telescope current_buffer_fuzzy_find<CR>", { desc = "Buscar dentro del archivo actual" })
+    vim.keymap.set("n", "<C-P>", ":Telescope find_files<CR>", { desc = "Buscar archivos en el proyecto" })
+    vim.keymap.set("n", "<C-O>", ":Telescope current_buffer_fuzzy_find<CR>", { desc = "Buscar dentro del archivo actual" })
     vim.keymap.set("n", "<C-B>", ":Telescope file_browser<CR>", { desc = "Abrir el explorador de archivos" })
     vim.keymap.set("n", "<C-F>", ":Telescope live_grep<CR>", { desc = "Buscar texto en todo el proyecto" })
   end,

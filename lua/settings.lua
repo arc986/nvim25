@@ -66,3 +66,5 @@ vim.opt.foldenable = true       -- Habilita el plegado de código
 vim.opt.autoread = true         -- Recarga automáticamente los archivos si son modificados externamente
 
 vim.g.mapleader = " "
+
+vim.opt.shortmess:append("I")
