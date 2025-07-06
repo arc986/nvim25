@@ -16,7 +16,7 @@ return {
           prompt_position = "top",
           preview_width = 0.5,
         },
-        file_ignore_patterns = { "node_modules", ".git", "dist", "build", "__pycache__" },
+        file_ignore_patterns = { "node_modules", "^.*/%.git/", "^%.git/", "dist", "build", "__pycache__" },
       },
       extensions = {
         file_browser = {

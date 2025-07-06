@@ -38,7 +38,7 @@ vim.opt.softtabstop = 2         -- Espacios al usar la tecla Tab
 vim.opt.tabstop = 2             -- Visualiza tabulaciones como 4 espacios
 
 -- Línea de comandos
-vim.opt.cmdheight = 0           -- Altura de la línea de comandos
+vim.opt.cmdheight = 1           -- Altura de la línea de comandos
 
 -- Rendimiento y comportamiento
 vim.opt.shortmess:append('c')   -- Simplifica los mensajes en el área de comandos
